@@ -11,7 +11,7 @@ The main purpose of this project is to practice JavaScript functions, conditiona
 
 ## 🚀 Live Demo
 
-**Live Demo:** [https://pashtanahabib.github.io/Rock-Paper-Scissors-Game/](#)
+**Live Demo:** [https://pashtanahabib.github.io/Rock-Paper-Scissors-Game/](https://pashtanahabib.github.io/Rock-Paper-Scissors-Game/)
 
 ## 🛠️ Technologies Used
 
