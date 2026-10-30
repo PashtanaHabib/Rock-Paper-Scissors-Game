@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pashtana Habib</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="black">
+      <h2 id="score">سنگ کاغذ قیچی</h2>
+    </div>
+
+    <div class="main">
+      <div class="computer">
+        <img id="cpu" src="images/paper.png" />
+      </div>
+      <div class="player">
+        <img src="images/paper.png" onclick="check('kaghaz')" />
+        <img src="images/rock.png" onclick="check('sang')" />
+        <img src="images/scissor.png" onclick="check('gheychi')" />
+      </div>
+    </div>
+    <div class="black"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
