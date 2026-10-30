@@ -1,0 +1,65 @@
+@font-face {
+  font-family: estedad;
+  src: url("../fonts/Estedad-Regular.ttf");
+}
+
+body {
+  font-family: estedad;
+  background-color: #e6e6e6;
+  direction: rtl;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+}
+
+.black {
+  background-color: #000;
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score {
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+}
+.main {
+  background-color: #00ff00;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+}
+.computer {
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  align-items: flex-end;
+  transform: rotate(180deg);
+}
+
+.player {
+  display: flex;
+  height: 50%;
+
+  justify-content: center;
+  align-items: end;
+}
+
+.main img {
+  width: 150px;
+  height: 150px;
+}
+
+.player img:hover {
+  cursor: pointer;
+}
